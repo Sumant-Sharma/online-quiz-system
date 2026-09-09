@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">🎯 Quiz Master</h1>
+                <nav class="nav">
+                    <button class="nav-btn active" data-page="home">Home</button>
+                    <button class="nav-btn" data-page="quizzes">Quizzes</button>
+                    <button class="nav-btn" data-page="about">About</button>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Page -->
+            <section id="home" class="page active">
+                <div class="hero">
+                    <h2>Welcome to Quiz Master</h2>
+                    <p>Test your knowledge with our interactive quizzes. Challenge yourself and improve your skills!</p>
+                    <button class="btn btn-primary" onclick="goToQuizzes()">Start Quiz</button>
+                </div>
+                <div class="features">
+                    <div class="feature-card">
+                        <span class="feature-icon">📚</span>
+                        <h3>Multiple Topics</h3>
+                        <p>Quizzes on various subjects to expand your knowledge</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">⚡</span>
+                        <h3>Interactive</h3>
+                        <p>Engaging and interactive quiz experience</p>
+                    </div>
+                    <div class="feature-card">
+                        <span class="feature-icon">📊</span>
+                        <h3>Instant Results</h3>
+                        <p>Get immediate feedback and detailed results</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quizzes List Page -->
+            <section id="quizzes" class="page">
+                <h2>Available Quizzes</h2>
+                <div id="quizzes-container" class="quizzes-grid">
+                    <!-- Quizzes will be loaded here -->
+                </div>
+            </section>
+
+            <!-- Quiz Taking Page -->
+            <section id="quiz-taking" class="page">
+                <div class="quiz-header">
+                    <h2 id="quiz-title"></h2>
+                    <div class="quiz-progress">
+                        <span id="question-counter"></span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <form id="quiz-form" onsubmit="submitQuiz(event)">
+                    <div id="questions-container"></div>
+                    <div class="quiz-actions">
+                        <button type="button" class="btn btn-secondary" onclick="goToQuizzes()">Back</button>
+                        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Results Page -->
+            <section id="results" class="page">
+                <div class="results-container">
+                    <h2>Quiz Results</h2>
+                    <div class="score-display">
+                        <div class="score-circle" id="score-circle">
+                            <div class="score-text">
+                                <span class="score-number" id="score-number">0</span>
+                                <span class="score-label">/ <span id="total-questions">0</span></span>
+                            </div>
+                        </div>
+                        <p class="score-percentage"><span id="percentage">0</span>%</p>
+                    </div>
+                    <div id="results-details" class="results-details"></div>
+                    <div class="results-actions">
+                        <button class="btn btn-secondary" onclick="goToQuizzes()">Take Another Quiz</button>
+                        <button class="btn btn-primary" onclick="goHome()">Back to Home</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Page -->
+            <section id="about" class="page">
+                <div class="about-content">
+                    <h2>About Quiz Master</h2>
+                    <p>Quiz Master is an interactive online quiz platform designed to help you test and improve your knowledge across various topics.</p>
+                    <h3>Features:</h3>
+                    <ul>
+                        <li>Multiple quiz categories</li>
+                        <li>Responsive design for all devices</li>
+                        <li>Instant score calculation</li>
+                        <li>Detailed answer reviews</li>
+                        <li>User-friendly interface</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Quiz Master. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

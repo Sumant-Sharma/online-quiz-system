@@ -1,0 +1,152 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "General Knowledge Quiz",
+      "description": "Test your general knowledge with 5 interesting questions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the capital of France?",
+          "options": ["London", "Berlin", "Paris", "Madrid"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "question": "Which planet is known as the Red Planet?",
+          "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "question": "Who wrote 'Romeo and Juliet'?",
+          "options": ["Jane Austen", "William Shakespeare", "Mark Twain", "Charles Dickens"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "What is the largest ocean on Earth?",
+          "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+          "correctAnswer": 3
+        },
+        {
+          "id": 5,
+          "question": "In what year did the Titanic sink?",
+          "options": ["1912", "1913", "1911", "1914"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Science Quiz",
+      "description": "Challenge yourself with science questions",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the chemical symbol for Gold?",
+          "options": ["Go", "Gd", "Au", "Ag"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 2,
+          "question": "What is the smallest unit of life?",
+          "options": ["Atom", "Molecule", "Cell", "Tissue"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 3,
+          "question": "How many bones does an adult human have?",
+          "options": ["186", "206", "226", "246"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 4,
+          "question": "What gas do plants absorb from the atmosphere?",
+          "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "What is the speed of light?",
+          "options": ["300,000 km/s", "150,000 km/s", "500,000 km/s", "100,000 km/s"],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "History & Literature Quiz",
+      "description": "Explore fascinating historical events and literary classics",
+      "questions": [
+        {
+          "id": 1,
+          "question": "In which year did the American Declaration of Independence get signed?",
+          "options": ["1774", "1776", "1778", "1780"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "Who was the first President of the United States?",
+          "options": ["Thomas Jefferson", "George Washington", "Abraham Lincoln", "John Adams"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 3,
+          "question": "Which book series features the character Harry Potter?",
+          "options": ["The Chronicles of Narnia", "Percy Jackson", "Harry Potter and the Philosopher's Stone", "A Song of Ice and Fire"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "What era followed the Medieval Period in Europe?",
+          "options": ["Baroque", "Renaissance", "Enlightenment", "Victorian"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 5,
+          "question": "Who authored 'Pride and Prejudice'?",
+          "options": ["Charlotte Brontë", "Emily Dickinson", "Jane Austen", "Virginia Woolf"],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Technology & Programming Quiz",
+      "description": "Test your knowledge about technology and programming concepts",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Which programming language is known as the language of the web?",
+          "options": ["Python", "JavaScript", "Java", "C++"],
+          "correctAnswer": 1
+        },
+        {
+          "id": 2,
+          "question": "What does HTML stand for?",
+          "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+          "correctAnswer": 0
+        },
+        {
+          "id": 3,
+          "question": "In what year was the first iPhone released?",
+          "options": ["2005", "2006", "2007", "2008"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 4,
+          "question": "What is the most popular version control system used by developers?",
+          "options": ["SVN", "Mercurial", "Git", "Perforce"],
+          "correctAnswer": 2
+        },
+        {
+          "id": 5,
+          "question": "What does an API stand for?",
+          "options": ["Application Programming Interface", "Application Process Integration", "Application Protocol Instance", "Advanced Programming Input"],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ]
+}
